@@ -4,7 +4,6 @@ FROM ghcr.io/pburgisser/misp-container-base:latest
 COPY files/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
 COPY files/supervisor/misp-workers.conf /etc/supervisor/conf.d/misp-workers.conf
 COPY files/entrypoint.sh /
-COPY files/entrypoint_cron.sh /
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 
