@@ -1,4 +1,4 @@
-FROM ghcr.io/pburgisser/misp-container-base:misp-v2.4.167
+FROM ghcr.io/pburgisser/misp-container-base:misp-v2.4.170
 
 # Entrypoints
 COPY files/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
